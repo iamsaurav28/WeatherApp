@@ -1,0 +1,139 @@
+.navbar {
+     background-color: #333;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+     width: 100%;
+     margin: auto;
+   }
+
+   .toggle-button {
+     background: none;
+     border: none;
+     font-size: 30px;
+     color: white;
+     cursor: pointer;
+     outline: none;
+     margin-left: 30px;
+   }
+
+   .navbar-links {
+     list-style: none;
+     padding: 0;
+     display: flex;
+     margin-right: 30px;
+     margin-top: 10px;
+     font-weight: 600;
+   }
+
+   .navbar-links li {
+     margin-right: 40px;
+   }
+
+   .nav-link{
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    color:#a0a0a0;
+    letter-spacing: 0.5px;
+   }
+
+   .nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: blueviolet;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+   }
+
+   .nav-link:hover:after{
+    width: 100%;
+   }
+
+   .nav-link:hover{
+    color: #ffffff;
+   }
+
+
+
+   .sidebar {
+     position: fixed;
+     left: -250px;
+     top: 0;
+     width: 250px;
+     height: 100%;
+     background: #333;
+     transition: 0.3s;
+     z-index: 1;
+   }
+
+   .sidebar.open {
+     left: 0;
+   }
+
+   .close-button {
+     background: none;
+     border: none;
+     font-size: 20px;
+     color: white;
+     cursor: pointer;
+     outline: none;
+     position: absolute;
+     top: 10px;
+     right: 10px;
+   }
+
+   .sidebar-links {
+     list-style: none;
+     padding: 0;
+     margin-top: 50px;
+   }
+
+   .sidebar-links li {
+     margin: 20px 0;
+     padding: 10px;
+     font-size: larger;
+     font-weight: bold;
+     text-align: justify;
+  transition: 0.4s;
+
+   }
+   
+   .sidebar-links li:hover{
+    padding-left: 30px;
+    background-color: blueviolet;
+   }
+
+   .side-text{
+    position: relative;
+    left: 90px; 
+   }
+
+   .sidebar-links a {
+     text-decoration: none;
+     color: white;
+   }
+
+   .sidebar-links a:hover {
+     text-decoration: underline;
+   }
+   
+.icon{
+  margin-top: 5px;
+  position: absolute;
+  left: -30px;
+  color: #ffffff;
+}
+
+.title{
+  margin-right: 700px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+ 

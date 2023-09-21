@@ -1,0 +1,42 @@
+
+.app {
+     text-align: center;
+   }
+  
+   
+   .weather-app{
+     background-color: aquamarine;
+     align-items: center;
+     width: 300px;
+     position: absolute;
+     left: 500px;
+     top: 100px;
+     border: 1px solid black;
+     border-radius: 20px;
+   } 
+
+   .carousel-box{
+     padding: 20px;
+   }
+   .carousel-img{
+    position: relative;
+    left: 38%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+  
