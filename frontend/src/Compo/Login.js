@@ -27,7 +27,7 @@ const Login = () => {
       console.log(response.data);
       const { token } = response.data;
 
-      // Store the token in localStorage or a state management system
+      
       localStorage.setItem('token', token);
       navigate('/summary');
     } catch (error) {
