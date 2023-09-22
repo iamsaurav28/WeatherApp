@@ -10,9 +10,10 @@ const Navbar = ({ toggleSidebar }) => {
       </button>
       <Link className='title'>Weather App</Link>
       <ul className="navbar-links">
-        <li><Link className='nav-link' to="/home">Home</Link></li>
-        <li><Link className='nav-link' to="/summary">Summary</Link></li>
-        <li><Link className='nav-link' to="/dashboard">Logout</Link></li>
+        <li><Link className='nav-link na' to="/home">Home</Link></li>
+        
+        <li><Link className='nav-link na' to="/summary">Summary</Link></li>
+        <li><Link className='nav-link ' to="/dashboard">Logout</Link></li>
       </ul>
     </nav>
   );
